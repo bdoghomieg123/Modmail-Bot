@@ -23,7 +23,7 @@ while True:
             elif "ban" in messagetext:
                 conv.reply("That is up to mod vote at the moment. \n\n\n\n ^(This reply was made by a bot. If bot replied incorrectly, please notify the creator of this bot u/kapow-bitch)")
                 print("replied")
-                conv.read()
                 replied_to.append(messagetext)
-            else:
-                continue
+
+            conv.read()
+            
