@@ -18,7 +18,7 @@ Hello! This is a bot that replies to modmail
     - Click "Create app"
     - Keep this tab open for the "Setting up Praw.ini" section.
     - (Optional) Install Geany text editor for easy code editing and running. I only recommend this text editor because it's easy to use and install, however, this is not an absolutely required step. It's just here if you want it to make running the bot easier. (Please Note: I am not affilated with Geany or its developers in any way, it is just the first text editor that I used when learning how to code and it made running Python scripts easier.
-    - Open main.py in geany. This file looks small I know. However, all the brains of the app is in replier.py. The main.py file optimizes it for running 24/7 on a hosted server so that in the event that Reddit or the API goes down temporarily, you don't have to manually restart it as it will be constantly running due to the While True: Try/Except exception condition.
+    - Open main.py in geany
     - To run program in geany, simply press the F5 key.
     - Thank You and I hope you enjoy this program!
 
